@@ -1,17 +1,15 @@
-const API_KEY = "AIzaSyBuymDfFFJXAB5hQ1UmLpviW-phrd6kghc";
-
 export const YOUTUBE_VIDEOS_API =
   "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=30&regionCode=IN&key=" +
-  API_KEY;
+  process.env.REACT_APP_API_KEY;
 
 export const YOUTUBE_SEARCH_API =
   "https://suggestqueries.google.com/complete/search?client=youtube&ds=yt&client=firefox&q=";
 
 export const LIVE_CHAT_COUNT = 25;
 
-export const YOUTUBE_SEARCH_VIDEOS_API = `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&key=${API_KEY}&q=`;
+export const YOUTUBE_SEARCH_VIDEOS_API = `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&key=${process.env.REACT_APP_API_KEY}&q=`;
 
-export const SEARCH_RESULTS_URL = `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&safeSearch=moderate&key=${API_KEY}&q=`;
+export const SEARCH_RESULTS_URL = `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&safeSearch=moderate&key=${process.env.REACT_APP_API_KEY}&q=`;
 
 export const msgList = [
   "Shoutout to the mods!",
