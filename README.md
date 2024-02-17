@@ -1,6 +1,8 @@
 
 Live Site - https://dhavalgala999-my-yotube.netlify.app/
 
+This YouTube clone project was made as part of the Namaste React course by Akshay Saini 🚀.
+
 
 # Getting Started with Create React App
 
