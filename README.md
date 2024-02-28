@@ -3,6 +3,23 @@ Live Site - https://dhavalgala999-my-yotube.netlify.app/
 
 This YouTube clone project was made as part of the Namaste React course by Akshay Saini 🚀.
 
+💻 Tech Stack Used : 💻
+✍ React, JavaScript, React-Router-Dom 
+✍ Redux ,Redux Toolkit
+✍ Tailwind CSS
+✍ Netlify - (Website Hosting)
+
+⭐⭐ Implemented Key Features ⭐⭐
+
+✅ Search Functionality.
+✅ Live Chat Functionality.
+✅ Category based filter.
+✅ YouTube Video Watch page with Recommended video list.
+✅ Nested Comments Section.
+✅ Used YouTube API with Google Developer key.
+✅ Responsive for all screens.
+
+
 
 # Getting Started with Create React App
 
